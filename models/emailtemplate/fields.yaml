@@ -1,0 +1,21 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    name:
+        label: name
+        disable: true
+    caption:
+        label: Caption
+        disable: true
+    ident:
+        label: Ident
+        disable: true
+    body:
+        label: Body Html
+        disable: true
+        type: textarea

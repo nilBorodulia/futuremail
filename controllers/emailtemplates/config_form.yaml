@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Email Template
+
+# Model Form Field configuration
+form: $/nilborodulya/futuremail/models/emailtemplate/fields.yaml
+
+# Model Class name
+modelClass: NilBorodulya\Futuremail\Models\EmailTemplate
+
+# Default redirect location
+defaultRedirect: nilborodulya/futuremail/emailtemplates
+
+# Create page
+create:
+    title: Create Email Template
+    redirect: nilborodulya/futuremail/emailtemplates/update/:id
+    redirectClose: nilborodulya/futuremail/emailtemplates
+
+# Update page
+update:
+    title: Edit Email Template
+    redirect: nilborodulya/futuremail/emailtemplates
+    redirectClose: nilborodulya/futuremail/emailtemplates
+
+# Preview page
+preview:
+    title: Preview Email Template

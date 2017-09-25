@@ -1,0 +1,20 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    name:
+        label: name
+        disable: true
+    caption:
+        label: Caption
+        disable: true
+    ident:
+        label: Ident
+        disable: true
+    body:
+        label: Body Html
+        disable: true

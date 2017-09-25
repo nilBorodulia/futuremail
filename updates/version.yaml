@@ -1,0 +1,7 @@
+1.0.1: First version of futureMail
+1.0.2:
+    - Run table migrations
+    - create_emails_table.php
+1.0.3:
+    - Run table migrations
+    - create_email_templates_table.php
