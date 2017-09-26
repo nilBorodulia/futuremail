@@ -10,6 +10,13 @@ use System\Models\MailTemplate;
 
 class Mails extends ComponentBase
 {
+    public function onRun()
+    {
+        $this->addCss('assets/vendor/jQueryUI/jquery-ui.css');
+        $this->addJs('assets/vendor/jQueryUI/jquery-ui.js');
+        $this->addJs('assets/vendor/tinymce/tinymce.min.js');
+        $this->addJs('assets/javascript/main.js');
+    }
     public function componentDetails()
     {
         return [
